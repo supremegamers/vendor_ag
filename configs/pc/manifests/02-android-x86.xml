@@ -2,26 +2,26 @@
 <manifest>
 
   <project path="test/kernel" name="kernel/tests" remote="aosp" />
-  <project path="bootable/newinstaller" name="bootable_newinstaller" remote="ag" revision="r11-r36" />
-  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="r-x86" />
-  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="r-x86" />
+  <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="r11-r36-next" />
+  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="pie-x86" />
+  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="pie-x86" />
+  <project path="external/alsa-ucm-conf" name="platform/external/alsa-ucm-conf" remote="x86" revision="pie-x86" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="r-x86" />
   <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="q-x86" />
   <project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" revision="r-x86" />
   <project path="external/drmfb-composer" name="platform/external/drmfb-composer" remote="x86" revision="r-x86" />
-  <project path="external/drm_gralloc" name="platform/external/drm_gralloc" remote="x86" revision="r-x86" />
+  <project path="external/drm_gralloc" name="hardware_drm_gralloc" remote="maurossi" revision="mesa-20.3_nv" />
   <project path="external/drm_hwcomposer" name="drm_hwcomposer.git" remote="maurossi" revision="blueprint_pie-x86_y21_w04" />
   <project path="external/efibootmgr" name="platform/external/efibootmgr" remote="x86" revision="r-x86" />
   <project path="external/efivar" name="platform/external/efivar" remote="x86" revision="r-x86" />
-  <project path="external/exfat" name="platform/external/exfat" remote="x86" revision="r-x86" />
   <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="r-x86" />
-  <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="r-x86" />
+  <project path="external/gbm_gralloc" name="gbm_gralloc" remote="BR-x86" revision="r11-r36" />
   <project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="r-x86" />
   <project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="r-x86" />
-  <project path="external/libdrm" name="platform/external/libdrm" remote="x86" revision="q-x86" />
+  <project path="external/libdrm" name="drm" remote="maurossi" revision="2.4.107_r-x86" />
   <project path="external/llvm90" name="platform/external/llvm" remote="x86" revision="q-x86" />
-  <project path="external/llvm-project" name="llvm-project" remote="maurossi" revision="release_12.x" />
-  <project path="external/mesa" name="mesa" remote="maurossi" revision="21.1.0-devel_w13" />
+  <project path="external/llvm-project" name="llvm" remote="hm" revision="release_12.x" />
+  <project path="external/mesa" name="mesa" remote="maurossi" revision="21.1.6_r-x86" />
   <project path="external/minigbm" name="minigbm" remote="celadon" revision="master" />
   <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="r-x86" />
   <project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="q-x86" />
@@ -33,7 +33,7 @@
   <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" remote="x86" revision="r-x86" />
   <project path="hardware/intel/common/vaapi" name="platform/hardware/intel/common/vaapi" remote="x86" revision="r-x86" />
   <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="r-x86" />
-  <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="q-x86" />
+  <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="pie-x86" />
   <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="q-x86" />
   <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="r-x86" />
   <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="r-x86" />

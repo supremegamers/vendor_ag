@@ -5,8 +5,6 @@
 <remove-project name="device/generic/art" />
 <remove-project name="device/generic/car" />
 <remove-project name="device/generic/common" />
-<remove-project name="device/generic/goldfish" />
-<remove-project name="device/generic/goldfish-opengl" />
 <remove-project name="device/generic/mini-emulator-arm64" />
 <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
 <remove-project name="device/generic/mini-emulator-x86" />
@@ -17,7 +15,6 @@
 <remove-project name="device/generic/uml" />
 <remove-project name="device/generic/x86" />
 <remove-project name="device/generic/x86_64" />
-<remove-project name="device/google/atv" />
 <remove-project name="device/google/bonito" />
 <remove-project name="device/google/bonito-kernel" />
 <remove-project name="device/google/bonito-sepolicy" />
@@ -153,7 +150,6 @@
 <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
 <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
-<remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 <remove-project name="platform/prebuilts/qemu-kernel" />
 <remove-project name="platform/test/framework" />
 <remove-project name="platform/test/vti/dashboard" />
